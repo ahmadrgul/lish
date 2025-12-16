@@ -120,6 +120,19 @@ private:
                 // else "Error"
                 break;
 
+            case '<':
+                if (lookAhead() == '=') {
+                    current++;
+                    addToken(LESS_EQUAL);
+                } else addToken(LESS);
+                break;
+            case '>':
+                if (lookAhead() == '=') {
+                    current++;
+                    addToken(GREATER_EQUAL);
+                } else addToken(GREATER);
+                break;
+
             case '?':
                 addToken(IF);
                 break;
