@@ -60,7 +60,7 @@ LISH uses symbols instead of English words for control flow.
 ### How to Run
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/lish-scanner.git](https://github.com/yourusername/lish-scanner.git)
+    git clone [https://github.com/ahmadrgul/lish.git](https://github.com/ahmadrgul/lish.git)
     cd lish-scanner
     ```
 
